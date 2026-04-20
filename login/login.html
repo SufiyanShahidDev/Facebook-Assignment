@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Facebook Login Form</title>
+    <!-- Animate.css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt=""
+                class="logo animate__animated animate__bounce" width="100px" height="50px" />
+        </div>
+
+        <div class="loginContainer">
+
+            <div class="login-form">
+                <p>Log in to Facebook</p>
+
+                <input id="email" type="text" placeholder="Enter your Email address or phone number">
+                <input id="password" type="password" placeholder="PasswEnter Your Password">
+            </div>
+
+            <div class="login">
+                <button id="loginBtn">Login</button>
+            </div>
+
+            <div class="loginLinks">
+                <a href="#" id="edit-password">Forgotten Password?</a>
+                <a href="../register/register.html">Sign up for Facebook</a>
+            </div>
+        </div>
+
+        <div id="forgot-form">
+            <h3>Reset Password</h3>
+            <input type="email" id="reg-email" placeholder="Enter your registered email">
+            <input type="password" id="new-password" placeholder="New password">
+            <input type="password" id="confirm-password" placeholder="Confirm password">
+            <button id="submit">Update Password</button>
+            <button id="cancel">Cancel</button>
+        </div>
+    </div>
+
+
+</body>
+<script src="login.js"></script>
+<!-- Sweet Alert -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>
